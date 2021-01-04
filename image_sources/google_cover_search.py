@@ -7,7 +7,7 @@ from image_sources.image_cover_generator import ImageCoverGenerator
 
 
 class GoogleCoverGenerator(ImageCoverGenerator):
-    def __init__(self, api_key, cx_id, params={"num": 10, "imgSize": "HUGE"}, *args, **kwargs):
+    def __init__(self, api_key, cx_id, params={"num": 50, "imgSize": "HUGE"}, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.gis = GoogleImagesSearch(api_key, cx_id, validate_images=True)
         self.params = params

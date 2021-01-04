@@ -45,7 +45,7 @@ def scipy_color_palette(pil_img, count=10, quality=(200,200)):
     peak = codes[index_max]
     colors = [to_hex(rgb) for rgb in codes[index_max]]
     return colors
-def retrieve_user_colors(img, colors,n=5):
+def retrieve_user_colors(img, colors,n=5, preserve_n_amounts=True):
     color_height = round(img.size[1] * .1)
     color_width = math.floor(img.size[0] / len(colors))
     new_img = Image.new("RGB", (img.size[0], img.size[1] + color_height))
@@ -65,7 +65,18 @@ def retrieve_user_colors(img, colors,n=5):
     img = CustomImage(new_img)
     img.show()
     while len(selected) != n:
-        selection = int(input(f'Select color #{len(selected)+1}/{n}>'))-1
-        selected.append(colors[selection])
+        try:
+            selection = int(input(f'Select best color equivalent to #{len(selected)+1}/{n}>'))-1
+        except ValueError:
+            selected = []
+            continue
+        if preserve_n_amounts:
+            c = {
+                'color': colors[selection]['color'],
+                'amount': colors[len(selected)]['amount']
+            }
+            selected.append(c)
+        else:
+            selected.append(colors[selection])
     img.hide()
     return selected

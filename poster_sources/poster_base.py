@@ -3,7 +3,7 @@ import logging
 from image_sources.windows_image import CustomImage
 from PIL import Image, ImageDraw, ImageFont
 class Poster(ABC):
-    def __init__(self, data, o_cover, minimum_size=2000):
+    def __init__(self, data, o_cover, minimum_size=3000):
         self.data = data
         # resize square:
         if o_cover.size[0] != o_cover.size[1]:

@@ -7,7 +7,7 @@ import os
 import math
 import progressbar
 from abc import ABC, abstractmethod
-
+from tempfile import NamedTemporaryFile
 
 class ImageCoverGenerator(ABC): # abstract class
     def __init__(
@@ -19,7 +19,6 @@ class ImageCoverGenerator(ABC): # abstract class
         self.min_height = min_height
         self.min_width = min_width
         self.temp_img_name = temp_img_name
-        self.my_bytes_io = BytesIO()
     @staticmethod
     def _merge_and_markup_images(image_list):
         def _chunk(l, n):
@@ -90,13 +89,14 @@ class ImageCoverGenerator(ABC): # abstract class
     def _search(self, keyword):
         pass
     def _processed_image(self, img):
-        self.my_bytes_io.seek(0)  # go to adddress 0
-        img.copy_to(self.my_bytes_io)
-        self.my_bytes_io.seek(0)
+
+        b = BytesIO()
+        b.seek(0)  # go to adddress 0
+        img.copy_to(b)
+        b.seek(0)
         try:
-            temp_img = image_open(self.my_bytes_io)
+            temp_img = image_open(b)
         except Exception as e:
-            print('ERROR', e)
             return None
         if temp_img.size[0] < self.min_height or temp_img.size[1] < self.min_width:
             return None
@@ -106,6 +106,8 @@ class ImageCoverGenerator(ABC): # abstract class
         temp_img = self._processed_image(img)
         if temp_img == None:
             return {"img": None, "original_size": [0, 0], "current_size": [0, 0]}
+        if not resize:
+            temp_img.thumbnail((4000, 4000), Image.ANTIALIAS)
         original_size = temp_img.size
         if resize:
             temp_img.thumbnail((10000, self.min_height), Image.ANTIALIAS)
@@ -156,3 +158,53 @@ class ImageCoverGenerator(ABC): # abstract class
         if data:
             return selected_image, search_objs[num]
         return selected_image
+
+    def get_covers(self, keyword, pause=True, data=True,nums =None):
+        results = self._search(keyword)
+        valid_images = []
+        search_objs = []
+        for i in progressbar.progressbar(range(len(results)), redirect_stdout=data):
+            if nums != None and i-1 not in nums:
+                continue
+            if data:
+                if nums == None:
+                    self.display_data(i, results[i])
+                search_objs.append(results[i])  
+            valid_images.append(self._processed_image_wrapper(results[i]))
+
+                
+        
+        if nums != None:
+            results = [results[n - 1] for n in nums]
+            nums = [i for i in range(len(nums))]
+        else:
+            nums = []
+            merged_image = self._merge_and_markup_images(valid_images)
+            merged_image.show()
+            while True:
+                num =input("Select Image Number > ")
+                if num.isdigit():
+                    num = int(num) - 1
+                else:
+                    break
+                if num >= len(results) or num < 0:
+                    print('[INVALID IMAGE NUMBER]')
+                    continue
+                nums.append(num)
+            merged_image.hide()
+        selected_images = [self._processed_image_wrapper(results[num], resize=False)[
+            "img"
+        ] for num in nums ]
+        print(len(selected_images))
+        for i in range(len(selected_images)):
+            temporary_file = NamedTemporaryFile(mode='w+b', suffix='.png')
+            print(temporary_file.name)
+            if pause:
+                selected_images[i].save(temporary_file)
+                show_file(temporary_file.name)
+                input("[ENTER]")
+                selected_images[i] = CustomImage(Image.open(temporary_file.name))
+                hide_file()
+        if data:
+            return selected_images, [search_objs[num] for num in nums]
+        return selected_images
