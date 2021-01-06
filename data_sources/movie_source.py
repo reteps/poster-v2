@@ -78,9 +78,10 @@ def retrieve_movie_details(q):
             writers_key = 'writer'
             # rated = ['']
     plots = movie_details['plot']
-    tmp = plots[1]
-    plots[1] = plots[0]
-    plots[0] = tmp
+    if len(plots) > 1:
+        tmp = plots[1]
+        plots[1] = plots[0]
+        plots[0] = tmp
     data = {
         'original_title': movie_details['title'],
         'title': movie_details['title'],

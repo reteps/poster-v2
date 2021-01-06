@@ -10,7 +10,7 @@ class ItunesCoverGenerator(ImageCoverGenerator):
 
     def display_data(self, i, object):
         print(f"{i+1:02d}|{object['artistName']:20s}|{object['trackCount']:3d}|{object.get('contentAdvisoryRating', 'NONE'):8s}|{object['collectionName']}")
-    def _search(self, keyword, limit=5):
+    def _search(self, keyword, limit=6):
         base_data = {'country': 'US', 'media': 'music',
                 'entity': 'album', 'limit': limit, 
                 'lang': 'en_us'}

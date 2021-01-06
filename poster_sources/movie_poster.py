@@ -7,13 +7,13 @@ import textwrap
 
 
 class AlbumStylePoster(Poster):
+    @property
     def margin_ratio(self):
         return .05
     def create_poster(self):
         draw = self.draw
         poster = self.poster
-        margin = int(self.margin_ratio() * self.size)
-
+        margin = self.margin
         # image
         poster.paste(self.img, box=(margin, margin))
 
@@ -172,6 +172,7 @@ class AlbumStylePoster(Poster):
 
 
 class ClassicultPoster(Poster):
+    @property
     def margin_ratio(self):
         return .05 # .1/1.2
     def create_poster(self):
@@ -181,7 +182,7 @@ class ClassicultPoster(Poster):
             draw.rectangle((x, 0, x+5, self.height), fill='red')
         draw = self.draw
         poster = self.poster
-        margin = int(self.margin_ratio() * self.size)
+        margin = self.margin
         # year init
         year_font_size = 40 * self.size // 1000
         year_font = ImageFont.truetype('fonts/Gidole-Regular.ttf', year_font_size)
@@ -326,6 +327,7 @@ class ClassicultPoster(Poster):
 
 
 class ClassicultBarPoster(Poster):
+    @property
     def margin_ratio(self):
         return .05 # .1/1.2
     def create_poster(self):
@@ -335,7 +337,7 @@ class ClassicultBarPoster(Poster):
             draw.rectangle((x, 0, x+5, self.height), fill='red')
         draw = self.draw
         poster = self.poster
-        margin = int(self.margin_ratio() * self.size)
+        margin = self.margin
         # year init
         year_font_size = 40 * self.size // 1000
         year_font = ImageFont.truetype('fonts/Gidole-Regular.ttf', year_font_size)

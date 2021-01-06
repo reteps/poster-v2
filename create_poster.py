@@ -1,9 +1,12 @@
 from image_sources.tmdb_cover_search import TMDBCoverGenerator
 from image_sources.google_cover_search import GoogleCoverGenerator
 from image_sources.custom_cover_generator import CustomCoverGenerator
+from image_sources.itunes_cover_generator import ItunesCoverGenerator
 from data_sources.movie_source import retrieve_movie_details, modifier
 from data_sources.color_source import combo_color_palette, retrieve_user_colors, ext_color_palette
-from poster_sources.movie_poster import AlbumStylePoster, ClassicultPoster, ClassicultBarPoster
+from poster_sources.movie_poster import ClassicultBarPoster
+from poster_sources.music_poster import MusicPoster
+from data_sources.music_source import retrieve_spotify_data
 from image_sources.windows_image import image_open, hide_file
 from uploader import create_listing, etsy_instance
 import json
@@ -24,35 +27,58 @@ def slugify(value):
     # ...
     return value
 if __name__ == '__main__':
+    # Parse arguments
     split_on_comma = lambda s: [int(item) for item in s.split(',') if len(item) > 0 ]
+    choices = ['movie', 'music']
     parser = argparse.ArgumentParser()
-    parser.add_argument('search', type=str, nargs='+', help='Movie / TV Show')
+    parser.add_argument('search', type=str, nargs='+', help='Movie / TV Show / Album')
+    parser.add_argument('-t', '--type', choices=choices, default=choices[0])
     parser.add_argument('-u', '--url', type=str, help='Custom Image URL')
     parser.add_argument('-g', '--google', type=split_on_comma, help='Google Image Result Numbers')
     parser.add_argument('-i', '--imdb', type=split_on_comma, help='Imdb Image Result Numbers')
+    parser.add_argument('-a', '--album', type=int, help='Album number')
+    parser.add_argument('-c', '--cover', type=split_on_comma, help='Itunes Image Result Numbers')
     parser.add_argument('-p', '--plot', type=int, help='Plot number')
     args = parser.parse_args()
     print(args)
     query = " ".join(args.search)
     hide_file()
-    # '''
 
-    movie_data = modifier(retrieve_movie_details(query), args.plot) # movie
-    addl = ''
-    if 'tv' in movie_data['rated'].lower():
-        addl = ' tv'
-    
+    # Get Data & Poster Type & Title Slugs
+    data = None
+    Poster = None
+    title_slug = None 
+    if args.type == 'movie':
+        Poster = ClassicultBarPoster
+        data = modifier(retrieve_movie_details(query), args.plot) # movie
+        title_slug = slugify(data['original_title']) + f"-{data['id']}"
+    elif args.type == 'music':
+        Poster = MusicPoster
+        data = retrieve_spotify_data(query, args.album)
+        title_slug = slugify(data['title']) + f"-{data['release_date']}"
+    # Get Covers
+    covers = []
     if args.url:
         custom_img_maker = CustomCoverGenerator()
         covers = [custom_img_maker.get_cover(args.url, data=False)]
-    else:
+
+    elif args.type == 'movie':
         tmdb_img_maker = TMDBCoverGenerator('all', '4237f50f40774d6ed361922c222568a0')
-        covers = []
-        google_img_maker = GoogleCoverGenerator("AIzaSyDC2lWkgbX9OdzNY4OCX8oVoozVTUAkkDc", "f8b95d8f937c12c6a")
         if args.imdb == None or len(args.imdb) > 0:
-            covers += tmdb_img_maker.get_covers(movie_data['original_title'], data=False, nums=args.imdb, pause=True)
+            covers += tmdb_img_maker.get_covers(data['original_title'], data=False, nums=args.imdb, pause=True)
+        google_img_maker = GoogleCoverGenerator("AIzaSyDC2lWkgbX9OdzNY4OCX8oVoozVTUAkkDc", "f8b95d8f937c12c6a")
         if args.google == None or len(args.google) > 0:
-            covers += google_img_maker.get_covers(movie_data['original_title'] + addl, data=False,nums=args.google,pause=True)
+            if 'tv' in data['rated'].lower():
+                addl = ' tv'
+            covers += google_img_maker.get_covers(data['original_title'] + addl, data=False,nums=args.google,pause=True)
+
+    elif args.type == 'music':
+        img_maker = ItunesCoverGenerator(
+            'backdrops', # posters
+            '4237f50f40774d6ed361922c222568a0'
+        )
+        covers = img_maker.get_covers(query, pause=False, nums=args.cover, data=False)
+
     nums=None
     e = etsy_instance()
     to_upload = []
@@ -62,17 +88,15 @@ if __name__ == '__main__':
         # colors = ext_color_palette(cover)[:5]
 
         full_data = {
-            **movie_data,
+            **data,
             'colors': colors,
             'cover_id': cover_id,
-            'title_slug': slugify(movie_data['original_title']) + f"-{movie_data['id']}"
+            'title_slug': title_slug
         }
-        print(full_data['title_slug'])
         full_data['relative_path'] = f"posters/{full_data['title_slug']}"
         full_data['img_path'] = f"posters/{full_data['title_slug']}/img/{cover_id}.png"
-        poster_generator = ClassicultBarPoster(full_data, cover)
-        p = poster_generator.get_poster()
-        print('Poster created.')
+        p = Poster(full_data, cover).get_poster()
+        print(f"{full_data['title_slug']}/img/{cover_id} Created.")
         full_data['img_size'] = p.size
         poster_dir = Path(f"{full_data['relative_path']}/img")
         data_dir = Path(f"{full_data['relative_path']}/data")

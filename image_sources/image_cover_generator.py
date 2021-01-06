@@ -195,10 +195,8 @@ class ImageCoverGenerator(ABC): # abstract class
         selected_images = [self._processed_image_wrapper(results[num], resize=False)[
             "img"
         ] for num in nums ]
-        print(len(selected_images))
         for i in range(len(selected_images)):
             temporary_file = NamedTemporaryFile(mode='w+b', suffix='.png')
-            print(temporary_file.name)
             if pause:
                 selected_images[i].save(temporary_file)
                 show_file(temporary_file.name)

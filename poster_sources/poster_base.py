@@ -16,7 +16,7 @@ class Poster(ABC):
         self.size = o_cover.size[0]
         for key in data:
             setattr(self, key, data[key])
-        margin = self.margin_ratio() * 2
+        margin = self.margin_ratio * 2
         self.width = int((1 + margin) * self.size)
         self.height = int(1.7 / 1.1 * self.width)
         self.poster = Image.new('RGB', (self.width, self.height), color='white')
@@ -25,9 +25,13 @@ class Poster(ABC):
     @abstractmethod
     def create_poster(self):
         pass
+    @property
+    def margin(self):
+        return int(self.size * self.margin_ratio)
+    @property
     @abstractmethod
     def margin_ratio(self):
-        return .5
+        raise ValueError('uh')
     def get_poster(self):
         self.create_poster()
         return CustomImage(self.poster)

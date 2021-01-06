@@ -23,8 +23,10 @@ album_number
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="bbcde58d680d405b943a4098e0dbaa72",
                                                            client_secret="5d5395d4ec2d472e97ab3b585670400a"))
 
-def select_album(query):
+def select_album(query, album):
     possible_matches = sp.search(q=query, type='album')['albums']['items']
+    if album != None:
+        return possible_matches[album-1]['id']
     for i, m in enumerate(possible_matches):
         name = m['name']
         artist = m['artists'][0]['name']
@@ -147,8 +149,8 @@ def ultimate_modifier(data=None):
         selected_key = keys[option-2]
         data[selected_key] = string_mod(data[selected_key], secondary_option=secondary_option)
     return 'CONTINUE'
-def retrieve_spotify_data(query):
-    original_data = album_details(select_album(query))
+def retrieve_spotify_data(query, album):
+    original_data = album_details(select_album(query, album))
     data = None
     while True:
         status = ultimate_modifier(data)
@@ -159,6 +161,6 @@ def retrieve_spotify_data(query):
         elif status == 'CONTINUE':
             pass
         elif status == 'SELECT':
-            original_data = album_details(select_album(input('ALBUM > ')))
+            original_data = album_details(select_album(input('ALBUM > '), None))
         else:
             return data
