@@ -35,7 +35,10 @@ class Poster(ABC):
     def get_poster(self):
         self.create_poster()
         return CustomImage(self.poster)
-
+    def debug_line_y(self,y,c='red'):
+        self.draw.rectangle((0, y, self.width, y+5), fill=c)
+    def debug_line_x(self,x,c='red'):
+        self.draw.rectangle((x, 0, x+5, self.height), fill=c)
 
     @staticmethod
     def wrap_text(text, width, font):
@@ -83,7 +86,15 @@ class Poster(ABC):
             self.draw.text((last_word_x, height), words[-1], font=font, fill=color)
             height += text_height
         return height - y
-    def font_percent(self, text, pixel_width, fontpath, direction=0):
+    def font_fill_box(self, text, h, w, fontpath):
+        vertical_title_font = self.font_fill_area(text, h, fontpath, direction=1, include_ascent=False)
+        v_title_w, v_title_h = self.draw.textsize(text, vertical_title_font)
+        horizontal_title_font = self.font_fill_area(text, w, fontpath)
+        h_title_w, h_title_h = self.draw.textsize(text, horizontal_title_font)
+        if h_title_w < v_title_w:
+            return horizontal_title_font, 0
+        return vertical_title_font, 1
+    def font_fill_area(self, text, pixel_width, fontpath, direction=0, include_ascent=True):
         '''
         returns the font to have text fill that % width of image
         '''
@@ -93,6 +104,10 @@ class Poster(ABC):
         font = ImageFont.truetype(fontpath, fontsize)
         while True:
             size = self.draw.textsize(text, font)[direction]
+            if not include_ascent and direction == 1:
+                ascent, descent = font.getmetrics()
+                (width, height), (offset_x, offset_y) = font.font.getsize(text)
+                size -= offset_y
             if size / breakpoint < 1 and size / breakpoint > .97:
                 break
             if size < breakpoint:

@@ -76,7 +76,7 @@ def string_mod(s, song=False, secondary_option=None, song_list=False):
     strip_brace = lambda x: re.sub(r'\[.+\]', '', x).strip()
     strip_dash = lambda x: x.split('-')[0].split('–')[0].split('—')[0].strip()
     funcs = collections.OrderedDict([
-        ('Strip All', lambda x: strip_paren(strip_brace(strip_dash(x)))),
+        ('Strip All', lambda x: strip_dash(strip_brace(strip_paren(x)))),
         ('Strip Dash', strip_dash),
         ('Strip Paren', strip_paren),
         ('Strip Brace', strip_brace)

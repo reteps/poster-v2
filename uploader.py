@@ -28,7 +28,8 @@ def etsy_instance():
 
 
 BASE_URL = 'https://openapi.etsy.com/v2'
-def create_listing(etsy, d):
+
+def movie_listing_details(d):
     title = f"{d['title']} | {d['director']} | Minimalist {d['tv']} Poster, Vintage Retro Art Print, Printable Poster, Instant Download"
     all_tags = [d['title'], d['director'], d['title'] + ' Download', d['title'] + ' Poster', d['director'] + ' Poster',
         'Digital Download', 'Poster', 'Vintage', 'Wall Art', d['tv'], 'Print', d['title'].split(' ')[0]]
@@ -78,6 +79,9 @@ Please contact me if you have any questions, I’m happy to help!
 {', '.join(all_tags)}
 
 [{d['title_slug']}/{d['cover_id']}]'''
+    return title, description, all_tags
+def create_listing(etsy, d):
+    title, description, all_tags = movie_listing_details(d)
     bad_regex = re.compile(r"[^a-zA-Z0-9\s\-'™©®]")
     tags = list(set([i.lower() for i in filter(lambda x: (not bad_regex.search(x)) and len(x) <= 20, all_tags)]))
     data = {

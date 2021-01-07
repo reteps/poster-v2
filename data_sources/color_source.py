@@ -1,5 +1,5 @@
 import math
-from colorthief import ColorThief
+from colorthief import ColorThief, MMCQ
 from PIL import ImageShow, ImageFile, ImageFont, ImageDraw, Image
 from image_sources.windows_image import CustomImage
 import math
@@ -7,9 +7,26 @@ import math
 class MyColorThief(ColorThief):
     def __init__(self, pil):
         self.image = pil
+    def get_palette(self, color_count=10, quality=10):
+        image = self.image.convert('RGBA')
+        width, height = image.size
+        pixels = image.getdata()
+        pixel_count = width * height
+        valid_pixels = []
+        for i in range(0, pixel_count, quality):
+            r, g, b, a = pixels[i]
+            # If pixel is mostly opaque and not white
+            if a >= 125:
+                if not (r > 250 and g > 250 and b > 250):
+                    valid_pixels.append((r, g, b))
+
+        # Send array to quantize function which clusters values
+        # using median cut algorithm
+        cmap = MMCQ.quantize(valid_pixels, color_count)
+        return cmap.vboxes.map(lambda x: x)
 def thief_color_palette(pil_img, count=5):
     colors = MyColorThief(pil_img).get_palette(color_count=count)
-    return [{'color': to_hex(c), 'amount': 0} for c in colors]
+    return [{'color': to_hex(c['color']), 'amount': c['vbox'].count * c['vbox'].volume} for c in colors]
 def distance_from(color, compare_to=(255,255,255)):
     r,g,b = color
     r2,g2,b2=compare_to
@@ -20,7 +37,14 @@ def ext_color_palette(pil_img):
     for c in colors:
         pass
         #print(distance_from(c[0]))
-    colors = list(filter(lambda x: distance_from(x[0]) > 0.08, colors))
+    if len(colors) < 5:
+        return thief_color_palette(pil_img)
+    distance_from_white = .08
+    while True:
+        colors = list(filter(lambda x: distance_from(x[0]) > distance_from_white, colors))
+        if len(colors) >= 5:
+            break
+        distance_from_white -= .01
     return [{'color': to_hex(c[0]), 'amount': c[1]} for c in colors]
 def combo_color_palette(pil_img):
     return ext_color_palette(pil_img) + thief_color_palette(pil_img)

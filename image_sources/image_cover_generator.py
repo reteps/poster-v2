@@ -159,7 +159,10 @@ class ImageCoverGenerator(ABC): # abstract class
             return selected_image, search_objs[num]
         return selected_image
 
-    def get_covers(self, keyword, pause=True, data=True,nums =None):
+    def get_covers(self, keyword, pause=True, data=True,nums:list = []):
+        # dirty hack
+        if nums == []:
+            nums = None
         results = self._search(keyword)
         valid_images = []
         search_objs = []
