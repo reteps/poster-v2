@@ -1,0 +1,5989 @@
+{
+  "data": {
+    "original title": "Avatar: The Last Airbender (2005-2008)",
+    "cast": [
+      {
+        "data": {
+          "name": "Dee Bradley Baker"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Appa"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0048389",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Zach Tyler"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Aang"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0878940",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Mae Whitman"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Katara"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0926165",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jack De Sena"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Sokka"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1123750",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Dante Basco"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Prince Zuko"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0002364",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Michaela Jill Murphy"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Toph"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1402100",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Mako"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Uncle"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0538683",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Grey Griffin"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Azula"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0217221",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Andr\u00e9 Sogliuzzo"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Hakoda"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0812220",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Cricket Leigh"
+        },
+        "myID": null,
+        "notes": "(13 episodes, 2006-2008)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Mai"
+          },
+          "myID": null,
+          "notes": "(13 episodes, 2006-2008)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "1185516",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Mark Hamill"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0000434",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jennie Kwan"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Suki"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0477075",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Olivia Hack"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Ty Lee"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0352374",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Greg Baldwin"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "2055652",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jim Meskimen"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0002350",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "James Garrett"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Avatar Roku"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0308127",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jason Isaacs"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Commander Zhao"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0005042",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "James Sie"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Cabbage Merchant"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0796732",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Scott Menville"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0579914",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Zachary Throne"
+        },
+        "myID": null,
+        "notes": "(7 episodes, 2006-2008)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Additional Voices"
+          },
+          "myID": null,
+          "notes": "(7 episodes, 2006-2008)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "0861944",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Sab Shimono"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Master Yu"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0793634",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Victor Brandt"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0105011",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Kevin Michael Richardson"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0724656",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Keone Young"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "High Sage"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0949775",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Crawford Wilson"
+        },
+        "myID": null,
+        "notes": "(5 episodes, 2005-2006)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Jet"
+          },
+          "myID": null,
+          "notes": "(5 episodes, 2005-2006)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "1737527",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Clancy Brown"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Long Feng"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0000317",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Nika Futterman"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Smellerbee"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0296546",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Richard McGonagle"
+        },
+        "myID": null,
+        "notes": "(5 episodes, 2005-2007)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Bato"
+          },
+          "myID": null,
+          "notes": "(5 episodes, 2005-2007)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "0569501",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Johanna Braddy"
+        },
+        "myID": null,
+        "notes": "(5 episodes, 2005-2007)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Princess Yue"
+          },
+          "myID": null,
+          "notes": "(5 episodes, 2005-2007)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "1715189",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Takayo Fischer"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Li"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0279137",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jason Charles Miller"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1390709",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Rene Auberjonois"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Mechanist"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0041281",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Daniel Samonas"
+        },
+        "myID": null,
+        "notes": "(4 episodes, 2005-2007)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Teo"
+          },
+          "myID": null,
+          "notes": "(4 episodes, 2005-2007)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "1526223",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Clyde Kusatsu"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0476226",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Brian George"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Guru Pathik"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0313364",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Michael Dow"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Haru"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1023767",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Marc Graue"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Xin Fu"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1246394",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jennifer Hale"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "June"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0354937",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Mia Ella Mimica"
+        },
+        "myID": null,
+        "notes": "(4 episodes, 2006-2008)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Azula"
+          },
+          "myID": null,
+          "notes": "(4 episodes, 2006-2008)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "5760531",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Phil LaMarr"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Earth King"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0482851",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jon Polito"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Chief Arnook"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0689237",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Jen Cohn"
+        },
+        "myID": null,
+        "notes": "(3 episodes, 2006-2008)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Ursa"
+          },
+          "myID": null,
+          "notes": "(3 episodes, 2006-2008)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "2444270",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Bryan Konietzko"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Pirate Barker"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "1665983",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Robin Atkin Downes"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0235960",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Kristoffer Tabori"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "War Minister"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0846070",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Wayne Duvall"
+        },
+        "myID": null,
+        "notes": "(3 episodes, 2007)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": {
+          "data": {
+            "name": "Warden Poon"
+          },
+          "myID": null,
+          "notes": "(3 episodes, 2007)",
+          "titlesRefs": {},
+          "namesRefs": {},
+          "charactersRefs": {},
+          "modFunct": {},
+          "current_info": [],
+          "infoset2keys": {},
+          "key2infoset": {},
+          "_Container__role": null,
+          "characterID": null,
+          "myName": "",
+          "accessSystem": "http",
+          "keys_tomodify": {
+            "biography": null,
+            "quotes": null
+          },
+          "_roleIsPerson": false,
+          "_roleClass": null
+        },
+        "personID": "0245145",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Kim Mai Guest"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0346410",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Lex Lang"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0485670",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Tara Strong"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Actress Azula"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0152839",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Barbara Goodson"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": [
+          {
+            "data": {
+              "name": "Additional Voices"
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": "",
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          },
+          {
+            "data": {
+              "name": "..."
+            },
+            "myID": null,
+            "notes": "",
+            "titlesRefs": {},
+            "namesRefs": {},
+            "charactersRefs": {},
+            "modFunct": {},
+            "current_info": [],
+            "infoset2keys": {},
+            "key2infoset": {},
+            "_Container__role": null,
+            "characterID": null,
+            "myName": "",
+            "accessSystem": "http",
+            "keys_tomodify": {
+              "biography": null,
+              "quotes": null
+            },
+            "_roleIsPerson": false,
+            "_roleClass": null
+          }
+        ],
+        "personID": "0329361",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Family",
+      "Fantasy",
+      "Mystery"
+    ],
+    "runtimes": [
+      "23"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "country codes": [
+      "us"
+    ],
+    "language codes": [
+      "en"
+    ],
+    "color info": [
+      "Color"
+    ],
+    "aspect ratio": "1.33 : 1",
+    "sound mix": [
+      "Stereo"
+    ],
+    "certificates": [
+      "Australia:PG",
+      "Brazil:Livre",
+      "Brazil:10::(book 3)",
+      "Canada:PG",
+      "Canada:G::(Quebec)",
+      "Czechia:U::(self-applied)",
+      "France:T",
+      "Germany:6",
+      "Hong Kong SAR China:I::(self-applied)",
+      "Hungary:6",
+      "India:U::(self-applied)",
+      "Ireland:PG",
+      "Ireland:G::(some episodes)",
+      "Italy:T",
+      "Japan:G::(self-applied)",
+      "Malaysia:U",
+      "Mexico:A",
+      "Netherlands:6",
+      "New Zealand:PG",
+      "Nigeria:G::(self-applied)",
+      "Norway:5::(Paramount+ rating)",
+      "Poland:7::(self-applied)",
+      "Russia:6+",
+      "Saudi Arabia:G::(self-applied)",
+      "Singapore:PG",
+      "South Korea:7",
+      "Spain:A",
+      "Spain:10::(Catalonia)",
+      "Spain:7::(Netflix self-rating)",
+      "Turkey:7+::(self-applied)",
+      "United Kingdom:U",
+      "United Kingdom:U::(all seasons)",
+      "United Kingdom:PG::(some episodes)",
+      "United Kingdom:U::(volume 3)",
+      "United States:TV-Y7-FV"
+    ],
+    "creator": [
+      {
+        "data": {
+          "name": "Michael Dante DiMartino"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "personID": "0227204",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Bryan Konietzko"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "personID": "1665983",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "number of seasons": 3,
+    "rating": 9.3,
+    "votes": 269159,
+    "cover url": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_SY150_CR0,0,101,150_.jpg",
+    "imdbID": "0417299",
+    "plot outline": "The world is divided into four elemental nations: The Northern and Southern Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads. The Avatar upholds the balance between the nations, but everything changed when the Fire Nation invaded. Only the Avatar, master of all four elements, can stop them. But when the world needs him most, he vanishes. A hundred years later Katara and Sokka discover the new Avatar, an airbender named Aang. Together they must help Aang master the elements and save the world.",
+    "languages": [
+      "English"
+    ],
+    "title": "Avatar: The Last Airbender",
+    "year": 2005,
+    "kind": "tv series",
+    "series years": "2005-2008",
+    "akas": [
+      "Nickelodeon Avatar: The Last Airbender (United States)",
+      "Avatar: The Legend of Aang (United Kingdom)",
+      "Avatar, le dernier ma\u00eetre de l'air (France)",
+      "Avatar - Der Herr der Elemente (Germany)",
+      "Avatar: el \u00faltimo maestro aire (Spain)"
+    ],
+    "seasons": [
+      "1",
+      "2",
+      "3"
+    ],
+    "writer": [
+      {
+        "data": {
+          "name": "Michael Dante DiMartino"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "personID": "0227204",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Michael Dante DiMartino"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "personID": "0227204",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Michael Dante DiMartino"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "personID": "0227204",
+        "myName": "",
+        "billingPos": null,
+        "accessSystem": "http",
+        "keys_tomodify": {
+          "mini biography": null,
+          "spouse": null,
+          "quotes": null,
+          "other works": null,
+          "salary history": null,
+          "trivia": null,
+          "trade mark": null,
+          "news": null,
+          "books": null,
+          "biographical movies": null,
+          "portrayed in": null,
+          "where now": null,
+          "interviews": null,
+          "article": null,
+          "biography from leonard maltin's movie encyclopedia": null
+        },
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "production companies": [
+      {
+        "data": {
+          "name": "Nickelodeon Animation Studios"
+        },
+        "myID": null,
+        "notes": "",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0044395",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "distributors": [
+      {
+        "data": {
+          "name": "Nickelodeon Network"
+        },
+        "myID": null,
+        "notes": "(2008) (United States) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0022565",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "CBS All Access"
+        },
+        "myID": null,
+        "notes": "(2019) (United States) (video) (VOD)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0598660",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "CITV Channel"
+        },
+        "myID": null,
+        "notes": "(United Kingdom) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0832781",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "CNBC-e"
+        },
+        "myID": null,
+        "notes": "(Turkey) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0203432",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Netflix"
+        },
+        "myID": null,
+        "notes": "(2017) (Singapore) (video)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0144901",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Netflix"
+        },
+        "myID": null,
+        "notes": "(2020) (Venezuela) (video) (VOD)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0144901",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Nickelodeon"
+        },
+        "myID": null,
+        "notes": "(2009) (Canada) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0421177",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Nickelodeon"
+        },
+        "myID": null,
+        "notes": "(2008) (Netherlands) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0163635",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Nickelodeon"
+        },
+        "myID": null,
+        "notes": "(Turkey) (tv)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0421403",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Paramount+"
+        },
+        "myID": null,
+        "notes": "(2021) (United States) (video)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0820547",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "other companies": [
+      {
+        "data": {
+          "name": "DR Movie"
+        },
+        "myID": null,
+        "notes": "(animation production services) (seasons 1-2)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0038868",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "JM Animation Co."
+        },
+        "myID": null,
+        "notes": "(animation production services)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0212708",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Moi Animation Studio"
+        },
+        "myID": null,
+        "notes": "(animation production services) (season 3)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0295658",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      },
+      {
+        "data": {
+          "name": "Salami Studios"
+        },
+        "myID": null,
+        "notes": "(sound post-production)",
+        "titlesRefs": {},
+        "namesRefs": {},
+        "charactersRefs": {},
+        "modFunct": null,
+        "current_info": [],
+        "infoset2keys": {},
+        "key2infoset": {},
+        "_Container__role": null,
+        "companyID": "0115324",
+        "myName": "",
+        "accessSystem": "http",
+        "keys_tomodify": {},
+        "_roleIsPerson": false,
+        "_roleClass": null
+      }
+    ],
+    "plot": [
+      "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.::Kenneth Chisholm/gsaurav100",
+      "The world is divided into four elemental nations: The Northern and Southern Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads. The Avatar upholds the balance between the nations, but everything changed when the Fire Nation invaded. Only the Avatar, master of all four elements, can stop them. But when the world needs him most, he vanishes. A hundred years later Katara and Sokka discover the new Avatar, an airbender named Aang. Together they must help Aang master the elements and save the world.::Kevin Jeremiah Gaona",
+      "Water... Earth... Fire... Air. Long ago, the four nations lived together in harmony. But then, everything changed when the Fire Nation attacked. Only the Avatar, master of all four elements, could stop them. But when the world needed him most, he vanished. A hundred years passed and my brother and I discovered the new Avatar, an airbender named Aang. And although his airbending skills are great, he still has a lot to learn before he's ready to save anyone. But I believe Aang can save the world.::Katara",
+      "In a world where humans can bend the four elements, water, earth, fire, and air, the ruthless Fire Nation has engaged the rest of the world in a war that has lasted one hundred years. The world's only hope is the Avatar, the only one who can master all four elements. When the Avatar returns one hundred years later, a young Airbender named Aang, it's up to him to defeat the Fire Nation, and bring balance to the world.",
+      "When the hostile Fire Nation threatens to enslave the Water, Earth, and Air Nations, a reluctant and irresponsible boy must face his destiny as the Avatar, the Chosen One who can restore the world order. This new animated series centers on twelve-year-old Aang, who must forgo his selfish wandering to learn to master his latent powers over the four elements. Only then can he conquer the Firebenders, the evil nation that threatens the world.::Sara Stern Levin, Nickelodeon",
+      "In a lost age the world is divided into four equal powers: Water Tribe, Earth Kingdom, Fire Nation, and Air Nomads. In each nation there's a group of gifted people known as Benders who have the ability to manipulate their native element using martial arts and elemental magic. For thousands of years the nations lived together peacefully. But then disaster struck. The young ruler of the Fire Nation, Fire Lord Sozin, began a war of world conquest. The only one who could have prevented it was the Avatar. The Avatar is the human incarnation of the Spirit of Light, he alone can master bending all four elements. But, just when he was needed most, he disappeared. Now, 100 years later, a young Waterbender named Katara and her older brother Sokka stumble upon the long lost Avatar, Aang, who was encased in an iceberg for 100 years. They must help Aang master all four elements before summer when Sozin's grandson Fire Lord Ozai will use a comet to deal one last deadly strike against the other nations and claim a Fire Nation victory. But, all that is easier said than done with the Fire Lord's determined and hot-tempered son, Prince Zuko, hot on their trail.::Melanie"
+    ],
+    "synopsis": [
+      "A century ago, the young Avatar Aang, afraid of his new responsibilities, fled from his home and was forced into the ocean by a storm and encased himself in suspended animation in an iceberg near the South Pole. Shortly after, Fire Lord Sozin, the then-ruler of the Fire Nation, launched a world war to expand his nation's empire. Knowing that the Avatar must be an Air Nomad, he carried out a genocide against the Air Nomads with the help of a comet enhancing firebenders' power. One hundred years later, Katara and Sokka, teenagers of the Southern Water Tribe, accidentally discover Aang and revive him.In the first season, Aang travels with Katara and Sokka to the Northern Water Tribe so he can learn waterbending and be prepared to defeat the Fire Nation. Prince Zuko, the banished son of the current Fire Lord Ozai, pursues them, accompanied by his uncle Iroh, hoping to capture the Avatar to restore his honor. Aang is also pursued by Zhao, a Fire Nation admiral aspiring to win Ozai's favor. When his navy attacks the Northern Water Tribe, Zhao kills the moon spirit; Yue, the princess of the tribe, sacrifices her life to revive it, and Aang drives off the enemy fleet.In the second season, Aang learns earthbending from Toph Beifong, a blind twelve-year-old earthbending prodigy. Zuko and Iroh, now fugitives from the Fire Lord, become refugees in the Earth Kingdom, eventually settling in its capital Ba Sing Se. Both groups are pursued by Azula, Zuko's younger sister and a firebender prodigy. Aang's group travels to Ba Sing Se to seek the Earth King's support for an attack on the Fire Nation timed to an upcoming solar eclipse, during which firebenders will be powerless. Azula instigates a coup d'\u00e9tat, bringing the capital under Fire Nation control, and Zuko sides with his sister. Aang is mortally wounded by Azula, but he is revived by Katara.In the third season, Aang and his allies invade the Fire Nation capital during the solar eclipse, but are forced to retreat. Zuko abandons the Fire Nation to join Aang and teach him firebending. Aang, raised by monks to respect all life, wrestles with the possibility that he will have to kill Ozai to end the war. When Sozin's comet returns, Aang confronts Ozai and uses his Avatar powers to strip Ozai of his firebending ability; meanwhile, Aang's friends liberate Ba Sing Se, destroy the Fire Nation airship fleet, and capture Azula. Zuko is crowned the new Fire Lord and ends the war."
+    ]
+  },
+  "myID": null,
+  "notes": "",
+  "titlesRefs": {
+    "Avatar: The Last Airbender": {
+      "data": {
+        "title": "Avatar: The Last Airbender",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Taglines": {
+      "data": {
+        "title": "Taglines",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Synopsis": {
+      "data": {
+        "title": "Synopsis",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Plot Keywords": {
+      "data": {
+        "title": "Plot Keywords",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Parents Guide": {
+      "data": {
+        "title": "Parents Guide",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Plot Summary": {
+      "data": {
+        "title": "Plot Summary",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Full Cast and Crew": {
+      "data": {
+        "title": "Full Cast and Crew",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Release Dates": {
+      "data": {
+        "title": "Release Dates",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Official Sites": {
+      "data": {
+        "title": "Official Sites",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Company Credits": {
+      "data": {
+        "title": "Company Credits",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Filming & Production": {
+      "data": {
+        "title": "Filming & Production",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Technical Specs": {
+      "data": {
+        "title": "Technical Specs",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Trivia": {
+      "data": {
+        "title": "Trivia",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Goofs": {
+      "data": {
+        "title": "Goofs",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Crazy Credits": {
+      "data": {
+        "title": "Crazy Credits",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Quotes": {
+      "data": {
+        "title": "Quotes",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Alternate Versions": {
+      "data": {
+        "title": "Alternate Versions",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Connections": {
+      "data": {
+        "title": "Connections",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Soundtracks": {
+      "data": {
+        "title": "Soundtracks",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Photo Gallery": {
+      "data": {
+        "title": "Photo Gallery",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Trailers and Videos": {
+      "data": {
+        "title": "Trailers and Videos",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Awards": {
+      "data": {
+        "title": "Awards",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "FAQ": {
+      "data": {
+        "title": "FAQ",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "User Reviews": {
+      "data": {
+        "title": "User Reviews",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "User Ratings": {
+      "data": {
+        "title": "User Ratings",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "External Reviews": {
+      "data": {
+        "title": "External Reviews",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Metacritic Reviews": {
+      "data": {
+        "title": "Metacritic Reviews",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "Episode List": {
+      "data": {
+        "title": "Episode List",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "TV Schedule": {
+      "data": {
+        "title": "TV Schedule",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "News": {
+      "data": {
+        "title": "News",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    },
+    "External Sites": {
+      "data": {
+        "title": "External Sites",
+        "kind": "movie"
+      },
+      "myID": null,
+      "notes": "",
+      "titlesRefs": {},
+      "namesRefs": {},
+      "charactersRefs": {},
+      "modFunct": {},
+      "current_info": [],
+      "infoset2keys": {},
+      "key2infoset": {},
+      "_Container__role": null,
+      "movieID": "0417299",
+      "myTitle": "",
+      "accessSystem": "http",
+      "keys_tomodify": {
+        "plot": null,
+        "trivia": null,
+        "alternate versions": null,
+        "goofs": null,
+        "quotes": null,
+        "dvd": null,
+        "laserdisc": null,
+        "news": null,
+        "soundtrack": null,
+        "crazy credits": null,
+        "business": null,
+        "supplements": null,
+        "video review": null,
+        "faqs": null
+      },
+      "_roleIsPerson": false,
+      "_roleClass": null
+    }
+  },
+  "namesRefs": {},
+  "charactersRefs": {},
+  "modFunct": {},
+  "current_info": [
+    "main",
+    "plot",
+    "synopsis"
+  ],
+  "infoset2keys": {
+    "main": [
+      "original title",
+      "cast",
+      "genres",
+      "runtimes",
+      "countries",
+      "country codes",
+      "language codes",
+      "color info",
+      "aspect ratio",
+      "sound mix",
+      "certificates",
+      "creator",
+      "number of seasons",
+      "rating",
+      "votes",
+      "cover url",
+      "imdbID",
+      "plot outline",
+      "languages",
+      "title",
+      "year",
+      "kind",
+      "series years",
+      "akas",
+      "seasons",
+      "writer",
+      "production companies",
+      "distributors",
+      "other companies"
+    ],
+    "plot": [
+      "plot",
+      "synopsis"
+    ]
+  },
+  "key2infoset": {
+    "original title": "main",
+    "cast": "main",
+    "genres": "main",
+    "runtimes": "main",
+    "countries": "main",
+    "country codes": "main",
+    "language codes": "main",
+    "color info": "main",
+    "aspect ratio": "main",
+    "sound mix": "main",
+    "certificates": "main",
+    "creator": "main",
+    "number of seasons": "main",
+    "rating": "main",
+    "votes": "main",
+    "cover url": "main",
+    "imdbID": "main",
+    "plot outline": "main",
+    "languages": "main",
+    "title": "main",
+    "year": "main",
+    "kind": "main",
+    "series years": "main",
+    "akas": "main",
+    "seasons": "main",
+    "writer": "main",
+    "production companies": "main",
+    "distributors": "main",
+    "other companies": "main",
+    "plot": "plot",
+    "synopsis": "plot"
+  },
+  "_Container__role": null,
+  "movieID": "0417299",
+  "myTitle": "",
+  "accessSystem": "http",
+  "keys_tomodify": {
+    "plot": null,
+    "trivia": null,
+    "alternate versions": null,
+    "goofs": null,
+    "quotes": null,
+    "dvd": null,
+    "laserdisc": null,
+    "news": null,
+    "soundtrack": null,
+    "crazy credits": null,
+    "business": null,
+    "supplements": null,
+    "video review": null,
+    "faqs": null
+  },
+  "_roleIsPerson": false,
+  "_roleClass": null
+}

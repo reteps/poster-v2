@@ -5,28 +5,31 @@ import subprocess
 import time
 import os
 import math
-import progressbar
+import tqdm
 from abc import ABC, abstractmethod
 from tempfile import NamedTemporaryFile
 
-class ImageCoverGenerator(ABC): # abstract class
+
+class ImageCoverGenerator(ABC):  # abstract class
     def __init__(
         self,
         min_width=1000,
         min_height=1000,
-        temp_img_name='temp_image.png' # tmp is bad
+        temp_img_name='temp_image.png'  # tmp is bad
     ):
         self.min_height = min_height
         self.min_width = min_width
         self.temp_img_name = temp_img_name
+
     @staticmethod
     def _merge_and_markup_images(image_list):
         def _chunk(l, n):
             for i in range(0, len(l), n):  # Step over in chunks
-                yield l[i : i + n]
+                yield l[i: i + n]
 
         images_per_row = math.ceil(
-            math.sqrt(len(list(filter(lambda x: x["img"] != None, image_list))))
+            math.sqrt(
+                len(list(filter(lambda x: x["img"] != None, image_list))))
         )
         if images_per_row == 0:
             raise ValueError('No valid images')
@@ -63,7 +66,8 @@ class ImageCoverGenerator(ABC): # abstract class
                     draw.rectangle(
                         (x_offset, y_offset, x_offset + w, y_offset + h), fill="white"
                     )
-                    draw.text((x_offset, y_offset), f"{index}", (0, 0, 0), font=font)
+                    draw.text((x_offset, y_offset),
+                              f"{index}", (0, 0, 0), font=font)
 
                     y_offset_2 = y_offset + img["current_size"][1] - 50
                     draw.rectangle(
@@ -84,10 +88,10 @@ class ImageCoverGenerator(ABC): # abstract class
         new_img.thumbnail((4000, 4000), Image.ANTIALIAS)
         return CustomImage(new_img)
 
-
     @abstractmethod
     def _search(self, keyword):
         pass
+
     def _processed_image(self, img):
 
         b = BytesIO()
@@ -116,10 +120,12 @@ class ImageCoverGenerator(ABC): # abstract class
             "original_size": original_size,
             "current_size": temp_img.size,
         }
+
     @abstractmethod
     def display_data(i, obj):
         pass
-    def get_cover(self, keyword, pause=True, data=True,num=None):
+
+    def get_cover(self, keyword, pause=True, data=True, num=None):
         results = self._search(keyword)
         valid_images = []
         search_objs = []
@@ -129,10 +135,9 @@ class ImageCoverGenerator(ABC): # abstract class
             if data:
                 if num == None:
                     self.display_data(i, results[i])
-                search_objs.append(results[i])  
+                search_objs.append(results[i])
             valid_images.append(self._processed_image_wrapper(results[i]))
 
-                
         if num != None:
             results = [results[num-1]]
         num = 0
@@ -159,24 +164,22 @@ class ImageCoverGenerator(ABC): # abstract class
             return selected_image, search_objs[num]
         return selected_image
 
-    def get_covers(self, keyword, pause=True, data=True,nums:list = []):
+    def get_covers(self, keyword, pause=True, data=True, nums: list = []):
         # dirty hack
         if nums == []:
             nums = None
         results = self._search(keyword)
         valid_images = []
         search_objs = []
-        for i in progressbar.progressbar(range(len(results)), redirect_stdout=data):
+        for i in tqdm.tqdm(range(len(results))):
             if nums != None and i-1 not in nums:
                 continue
             if data:
                 if nums == None:
                     self.display_data(i, results[i])
-                search_objs.append(results[i])  
+                search_objs.append(results[i])
             valid_images.append(self._processed_image_wrapper(results[i]))
 
-                
-        
         if nums != None:
             results = [results[n - 1] for n in nums]
             nums = [i for i in range(len(nums))]
@@ -185,7 +188,7 @@ class ImageCoverGenerator(ABC): # abstract class
             merged_image = self._merge_and_markup_images(valid_images)
             merged_image.show()
             while True:
-                num =input("Select Image Number > ")
+                num = input("Select Image Number > ")
                 if num.isdigit():
                     num = int(num) - 1
                 else:
@@ -197,14 +200,15 @@ class ImageCoverGenerator(ABC): # abstract class
             merged_image.hide()
         selected_images = [self._processed_image_wrapper(results[num], resize=False)[
             "img"
-        ] for num in nums ]
+        ] for num in nums]
         for i in range(len(selected_images)):
             temporary_file = NamedTemporaryFile(mode='w+b', suffix='.png')
             if pause:
                 selected_images[i].save(temporary_file)
                 show_file(temporary_file.name)
                 input("[ENTER]")
-                selected_images[i] = CustomImage(Image.open(temporary_file.name))
+                selected_images[i] = CustomImage(
+                    Image.open(temporary_file.name))
                 hide_file()
         if data:
             return selected_images, [search_objs[num] for num in nums]
