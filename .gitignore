@@ -3,3 +3,4 @@ posters/
 ratings/
 __pycache__/
 test/
+.env
