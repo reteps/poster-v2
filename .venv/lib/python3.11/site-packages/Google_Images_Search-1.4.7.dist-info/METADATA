@@ -1,0 +1,267 @@
+Metadata-Version: 2.1
+Name: Google-Images-Search
+Version: 1.4.7
+Summary: Search for image using Google Custom Search API and resize & crop the image afterwords
+Home-page: https://github.com/arrrlo/Google-Images-Search
+Author: Ivan Arar
+Author-email: ivan.arar@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/arrrlo/Google-Images-Search
+Keywords: google images,resize,crop
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama ~=0.4
+Requires-Dist: pyfiglet ~=0.8
+Requires-Dist: termcolor ~=1.1
+Requires-Dist: click <=8.2,>=7.0
+Requires-Dist: six ~=1.12
+Requires-Dist: requests ~=2.21
+Requires-Dist: Pillow >=8.1.1
+Requires-Dist: python-resize-image ~=1.1
+Requires-Dist: google-api-python-client ~=2.48.0
+
+![Google Images Search](google.jpeg)
+
+# Google Images Search
+
+[![PyPI version](https://badge.fury.io/py/Google-Images-Search.svg)](https://badge.fury.io/py/Google-Images-Search)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3d5259c67ca48a7bfe844b9721b6c19)](https://www.codacy.com/app/arrrlo/Google-Images-Search?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arrrlo/Google-Images-Search&amp;utm_campaign=Badge_Grade)
+
+![GitHub issues](https://img.shields.io/github/issues/arrrlo/Google-Images-Search.svg)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/arrrlo/Google-Images-Search.svg)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/arrrlo/Google-Images-Search.svg)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Google-Images-Search.svg)
+![GitHub](https://img.shields.io/github/license/arrrlo/Google-Images-Search.svg?color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/arrrlo/Google-Images-Search.svg?color=blue)
+
+## [Installation](#installation)
+
+To be able to use this library, you need to enable Google Custom Search API, generate API key credentials and set a project:
+
+-   Visit [https://console.developers.google.com](https://console.developers.google.com) and create a project.
+
+-   Visit [https://console.developers.google.com/apis/library/customsearch.googleapis.com](https://console.developers.google.com/apis/library/customsearch.googleapis.com) and enable "Custom Search API" for your project.
+
+-   Visit [https://console.developers.google.com/apis/credentials](https://console.developers.google.com/apis/credentials) and generate API key credentials for your project.
+
+-   Visit [https://cse.google.com/cse/all](https://cse.google.com/cse/all) and in the web form where you create/edit your custom search engine enable "Image search" option and for "Sites to search" option select "Search the entire web but emphasize included sites".  
+
+After setting up your Google developers account and project you should have been provided with developers API key and project CX.
+
+Install package from pypi.org:  
+
+```bash
+> pip install Google-Images-Search
+```
+
+## [CLI usage](#cli-usage)
+
+```bash
+# without environment variables:
+
+> gimages -k __your_dev_api_key__ -c __your_project_cx__ search -q puppies
+```
+
+```bash
+# with environment variables:
+
+> export GCS_DEVELOPER_KEY=__your_dev_api_key__
+> export GCS_CX=__your_project_cx__
+>
+> gimages search -q puppies
+```
+
+```bash
+# search only (no download and resize):
+
+> gimages search -q puppies
+```
+
+```bash
+# search and download only (no resize):
+
+> gimages search -q puppies -d /path/on/your/drive/where/images/should/be/downloaded
+```
+
+```bash
+# search, download and resize:
+
+> gimages search -q puppies -d /path/ -w 500 -h 500
+```
+
+## [Programmatic usage](#programmatic-usage)
+
+```python
+from google_images_search import GoogleImagesSearch
+
+# you can provide API key and CX using arguments,
+# or you can set environment variables: GCS_DEVELOPER_KEY, GCS_CX
+gis = GoogleImagesSearch('your_dev_api_key', 'your_project_cx')
+
+# define search params
+# option for commonly used search param are shown below for easy reference.
+# For param marked with '##':
+#   - Multiselect is currently not feasible. Choose ONE option only
+#   - This param can also be omitted from _search_params if you do not wish to define any value
+_search_params = {
+    'q': '...',
+    'num': 10,
+    'fileType': 'jpg|gif|png',
+    'rights': 'cc_publicdomain|cc_attribute|cc_sharealike|cc_noncommercial|cc_nonderived',
+    'safe': 'active|high|medium|off|safeUndefined', ##
+    'imgType': 'clipart|face|lineart|stock|photo|animated|imgTypeUndefined', ##
+    'imgSize': 'huge|icon|large|medium|small|xlarge|xxlarge|imgSizeUndefined', ##
+    'imgDominantColor': 'black|blue|brown|gray|green|orange|pink|purple|red|teal|white|yellow|imgDominantColorUndefined', ##
+    'imgColorType': 'color|gray|mono|trans|imgColorTypeUndefined' ##
+}
+
+# this will only search for images:
+gis.search(search_params=_search_params)
+
+# this will search and download:
+gis.search(search_params=_search_params, path_to_dir='/path/')
+
+# this will search, download and resize:
+gis.search(search_params=_search_params, path_to_dir='/path/', width=500, height=500)
+
+# search first, then download and resize afterwards:
+gis.search(search_params=_search_params)
+for image in gis.results():
+    image.url  # image direct url
+    image.referrer_url  # image referrer url (source) 
+    
+    image.download('/path/')  # download image
+    image.resize(500, 500)  # resize downloaded image
+
+    image.path  # downloaded local file path
+```
+
+## [Custom file name](#custom-file-name)
+
+Sometimes you would want to save images with file name of your choice.
+
+```python
+from google_images_search import GoogleImagesSearch
+
+gis = GoogleImagesSearch('your_dev_api_key', 'your_project_cx')
+
+_search_params = { ... }
+
+gis.search(search_params=_search_params, path_to_dir='...', 
+           custom_image_name='my_image')
+```
+
+## [Paging](#paging)
+
+Google's API limit is 10 images per request.  
+That means if you want 123 images, it will be divided internally into 13 requests.  
+Keep in mind that getting 123 images will take a bit more time if the image validation is enabled.
+
+```python
+from google_images_search import GoogleImagesSearch
+
+gis = GoogleImagesSearch('your_dev_api_key', 'your_project_cx')
+_search_params = {
+    'q': '...',
+    'num': 123,
+}
+
+# get first 123 images:
+gis.search(search_params=_search_params)
+
+# take next 123 images from Google images search:
+gis.next_page()
+for image in gis.results():
+    ...
+```
+
+## [Image validation](#image-validation)
+
+Every image URL is validated by default.  
+That means that every image URL will be checked if the headers can be fetched and validated.  
+With that you don't need to wary about which image URL is actually downloadable or not.  
+The downside is the time needed to validate.  
+If you prefer, you can turn it off.
+
+```python
+from google_images_search import GoogleImagesSearch
+
+# turn the validation off with "validate_images" agrument
+gis = GoogleImagesSearch('your_dev_api_key', 'your_project_cx', validate_images=False)
+```
+
+## [Inserting custom progressbar function](#progressbar)
+
+By default, progressbar is not enabled.  
+Only in CLI progressbar is enabled by default using [Curses library](https://docs.python.org/3/howto/curses.html).  
+In a programmatic mode it can be enabled in two ways:  
+- using contextual mode (Curses)  
+- using your custom progressbar function  
+
+```python
+from google_images_search import GoogleImagesSearch
+
+# using your custom progressbar function
+def my_progressbar(url, progress):
+    print(url + ' ' + progress + '%')
+gis = GoogleImagesSearch(
+    'your_dev_api_key', 'your_project_cx', progressbar_fn=my_progressbar
+)
+_search_params = {...}
+gis.search(search_params=_search_params)
+
+# using contextual mode (Curses)
+with GoogleImagesSearch('your_dev_api_key', 'your_project_cx') as gis:
+    _search_params = {...}
+    gis.search(search_params=_search_params)
+...
+```
+
+## [Saving to a BytesIO object](#bytes-io)
+
+```python
+from google_images_search import GoogleImagesSearch
+from io import BytesIO
+from PIL import Image
+
+# in this case we're using PIL to keep the BytesIO as an image object
+# that way we don't have to wait for disk save / write times
+# the image is simply kept in memory
+# this example should display 3 pictures of puppies!
+
+gis = GoogleImagesSearch('your_dev_api_key', 'your_project_cx')
+
+my_bytes_io = BytesIO()
+
+gis.search({'q': 'puppies', 'num': 3})
+for image in gis.results():
+    # here we tell the BytesIO object to go back to address 0
+    my_bytes_io.seek(0)
+
+    # take raw image data
+    raw_image_data = image.get_raw_data()
+
+    # this function writes the raw image data to the object
+    image.copy_to(my_bytes_io, raw_image_data)
+
+    # or without the raw data which will be automatically taken
+    # inside the copy_to() method
+    image.copy_to(my_bytes_io)
+
+    # we go back to address 0 again so PIL can read it from start to finish
+    my_bytes_io.seek(0)
+
+    # create a temporary image object
+    temp_img = Image.open(my_bytes_io)
+    
+    # show it in the default system photo viewer
+    temp_img.show()
+```

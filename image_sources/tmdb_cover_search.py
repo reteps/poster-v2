@@ -3,7 +3,6 @@ import json
 from image_sources.windows_image import image_open
 from io import BytesIO
 from image_sources.image_cover_generator import ImageCoverGenerator
-from imdb import IMDb
 
 
 class TMDBCoverGenerator(ImageCoverGenerator):
@@ -21,23 +20,24 @@ class TMDBCoverGenerator(ImageCoverGenerator):
         self.image_url = image_url
         self.type = type
         self.api_key = api_key
-        self.imdb = IMDb()
 
     def _most_popular_movie(self, q):
+        # IMDb search is no longer available (IMDb blocks scraping), so
+        # resolve the query directly against TMDB's own search endpoints.
         if q.isdigit():
-            movieid = q
-        else:
-            movieid = self.imdb.search_movie(q)[0].movieID
-        params = {"api_key": self.api_key, "external_source": "imdb_id"}
+            return q, "movie"
+        params = {"api_key": self.api_key, "query": q}
         results = requests.get(
-            self.api_url + "/find/tt" + movieid, params=params
-        ).json()
-        id, type = None, None
-        for kind in results:
-            if len(results[kind]) > 0:
-                id = results[kind][0]["id"]
-                type = kind.replace("_results", "")
-        return id, type
+            self.api_url + "/search/movie", params=params
+        ).json().get("results", [])
+        if results:
+            return results[0]["id"], "movie"
+        results = requests.get(
+            self.api_url + "/search/tv", params=params
+        ).json().get("results", [])
+        if results:
+            return results[0]["id"], "tv"
+        return None, None
 
     def _get_images(self, keyword):
         id, type = self._most_popular_movie(keyword)

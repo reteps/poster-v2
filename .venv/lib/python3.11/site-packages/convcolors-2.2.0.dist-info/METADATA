@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: convcolors
+Version: 2.2.0
+Summary: Convert colors between different color spaces.
+Home-page: https://github.com/CairX/convert-colors-py
+Author: Thomas Cairns
+Author-email: thomas@cairns.se
+License: MIT
+Keywords: convert colors
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest (==5.4.3) ; extra == 'dev'
+Requires-Dist: tox (==3.16.0) ; extra == 'dev'
+Requires-Dist: yapf (==0.30.0) ; extra == 'dev'
+
+=================
+convert-colors-py
+=================
+A Python package for converting colors between  different color spaces.

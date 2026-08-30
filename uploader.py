@@ -144,6 +144,3 @@ def upload_listing_file(etsy, listing_id, file_path, file_name):
         print(e, r.text)
         exit()
     print(file_name, 'FILE UPLOADED')
-with open('posters/avatar-the-last-airbender-0417299/data/637079483.json') as f:
-
-    example_data = json.load(f) 

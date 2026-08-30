@@ -85,7 +85,7 @@ class ImageCoverGenerator(ABC):  # abstract class
                     print("Could not paste image", i + 1)
                     pass
             y_offset += max_height
-        new_img.thumbnail((4000, 4000), Image.ANTIALIAS)
+        new_img.thumbnail((4000, 4000), Image.LANCZOS)
         return CustomImage(new_img)
 
     @abstractmethod
@@ -111,10 +111,10 @@ class ImageCoverGenerator(ABC):  # abstract class
         if temp_img == None:
             return {"img": None, "original_size": [0, 0], "current_size": [0, 0]}
         if not resize:
-            temp_img.thumbnail((4000, 4000), Image.ANTIALIAS)
+            temp_img.thumbnail((4000, 4000), Image.LANCZOS)
         original_size = temp_img.size
         if resize:
-            temp_img.thumbnail((10000, self.min_height), Image.ANTIALIAS)
+            temp_img.thumbnail((10000, self.min_height), Image.LANCZOS)
         return {
             "img": temp_img,
             "original_size": original_size,

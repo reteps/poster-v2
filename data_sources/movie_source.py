@@ -1,7 +1,7 @@
-from imdb import IMDb
-import json, os
-from types import MappingProxyType
-import dateparser
+import json
+import os
+import requests
+import readline
 
 """
 title:
@@ -13,7 +13,13 @@ writer:
 categories:
 plot:
 """
-import readline
+
+# IMDb now blocks scraping (imdbpy/Cinemagoer stopped working), so movie
+# details are fetched from TMDB instead, using the same API key already
+# used elsewhere in this project for cover art.
+TMDB_API_KEY = os.environ.get(
+    "TMDB_API_KEY", "4237f50f40774d6ed361922c222568a0")
+TMDB_API_URL = "https://api.themoviedb.org/3"
 
 
 def input_with_prefill(prompt, text):
@@ -25,15 +31,6 @@ def input_with_prefill(prompt, text):
     result = input(prompt)
     readline.set_pre_input_hook()
     return result
-
-
-def serialize(o):
-    blacklist = []
-    x = {"k": "v"}
-    if type(o) == type(MappingProxyType(x)):
-        return None
-    print(type(o))
-    return o.__dict__
 
 
 def select_plot(plots, num=None):
@@ -54,78 +51,117 @@ def select_plot(plots, num=None):
     return plots[int(n) - 1]
 
 
+def _tmdb_get(path, params=None):
+    params = {**(params or {}), "api_key": TMDB_API_KEY}
+    r = requests.get(TMDB_API_URL + path, params=params)
+    r.raise_for_status()
+    return r.json()
+
+
+def _find_movie_or_show(q):
+    """Search TMDB for a movie first, falling back to TV, and return
+    (tmdb_id, media_type)."""
+    results = _tmdb_get("/search/movie", {"query": q}).get("results", [])
+    results = [r for r in results if r.get(
+        "release_date") or r.get("title")]
+    if results:
+        return results[0]["id"], "movie"
+    results = _tmdb_get("/search/tv", {"query": q}).get("results", [])
+    if results:
+        return results[0]["id"], "tv"
+    raise ValueError(f"No movie or TV show found for query: {q!r}")
+
+
 def retrieve_movie_details(q):
-    imdb = IMDb()
-    movieid = list(filter(lambda x: x["kind"] != "episode", imdb.search_movie(q)))[
-        0
-    ].movieID
-    movie_details = imdb.get_movie(movieid)
-    with open("out.txt", "w") as f:
-        f.write(json.dumps(movie_details, indent=2, default=serialize))
+    movieid, media_type = _find_movie_or_show(q)
 
-    print(movie_details["title"])
-    rated = list(
-        filter(
-            lambda x: "United States" in x and "ABC" not in x and "cable" not in x,
-            movie_details["certificates"],
+    if media_type == "movie":
+        details = _tmdb_get(
+            f"/movie/{movieid}",
+            {"append_to_response": "credits,release_dates"},
         )
-    )
-    director_key = "directors"
-    writers_key = "writers"
-    if movie_details["kind"] == "tv series":
-        director_key = "creator"
-        writers_key = "writer"
-        released = movie_details["series years"]
-        # rated = ['']
-        time_text = str(movie_details["seasons"]) + " season"
-        if movie_details["seasons"] > 1:
-            time_text += "s"
     else:
-        released = dateparser.parse(
-            movie_details.get("original air date").split("(")[0].strip(),
-            date_formats=["%d %b %Y"],
-        ).strftime("%B %-d %Y")
-        rated = list(filter(lambda x: "tv" not in x.lower(), rated))
-        h, m = divmod(int(movie_details["runtimes"][0]), 60)
-        if m == 0:
-            time_text = f"{h}h"
-        else:
-            time_text = f"{h}h {m}min"
+        details = _tmdb_get(
+            f"/tv/{movieid}",
+            {"append_to_response": "credits,content_ratings"},
+        )
 
-        if movie_details["kind"] == "tv mini series":
-            director_key = "director"
-            writers_key = "writer"
-            # rated = ['']
-    plots = movie_details["plot"]
-    if len(plots) > 1:
-        tmp = plots[1]
-        plots[1] = plots[0]
-        plots[0] = tmp
+    with open("out.txt", "w") as f:
+        f.write(json.dumps(details, indent=2))
+
+    title = details["title"] if media_type == "movie" else details["name"]
+    print(title)
+
+    crew = details.get("credits", {}).get("crew", [])
+    cast = details.get("credits", {}).get("cast", [])
+
+    if media_type == "movie":
+        released_raw = details.get("release_date", "")
+        year = released_raw[:4] if released_raw else ""
+        released = _format_release_date(released_raw)
+        h, m = divmod(int(details.get("runtime") or 0), 60)
+        time_text = f"{h}h" if m == 0 else f"{h}h {m}min"
+        rated = _movie_certification(details)
+        directors = [c["name"] for c in crew if c.get("job") == "Director"]
+        writers = [c["name"]
+                   for c in crew if c.get("department") == "Writing"]
+    else:
+        released_raw = details.get("first_air_date", "")
+        year = released_raw[:4] if released_raw else ""
+        released = _format_release_date(released_raw)
+        seasons = details.get("number_of_seasons", 1) or 1
+        time_text = f"{seasons} season" + ("s" if seasons > 1 else "")
+        rated = _tv_certification(details)
+        directors = [c["name"]
+                     for c in details.get("created_by", [])] or [
+            c["name"] for c in crew if c.get("job") == "Director"
+        ]
+        writers = [c["name"] for c in crew if c.get(
+            "department") == "Writing"]
+
+    plots = [details.get("overview", "") or "No plot available."]
+
     data = {
-        "original_title": movie_details["title"],
-        "title": movie_details["title"],
+        "original_title": title,
+        "title": title,
         "released": released,
-        "year": str(movie_details["year"]),
-        "tv": "TV" if "tv" in movie_details["kind"] else "Movie",
+        "year": str(year),
+        "tv": "TV" if media_type == "tv" else "Movie",
         "runtime": time_text,
-        "director": movie_details.get(director_key, [{"name": "error"}])[0]["name"],
-        "writers": list(
-            set(
-                list(
-                    filter(
-                        lambda x: x != None,
-                        [w.get("name") for w in movie_details[writers_key]],
-                    )
-                )
-            )
-        )[:4],
-        "genres": movie_details["genres"][:3],
+        "director": directors[0] if directors else "error",
+        "writers": list(dict.fromkeys(writers))[:4],
+        "genres": [g["name"] for g in details.get("genres", [])][:3],
         "plots": plots,
         "id": movieid,
-        "cast": [x["name"] for x in movie_details["cast"][:5]],
-        "rated": rated[0].replace("United States:", "").lower(),
+        "cast": [x["name"] for x in cast[:5]],
+        "rated": rated,
     }
     return data
+
+
+def _format_release_date(date_str):
+    if not date_str:
+        return ""
+    from datetime import datetime
+
+    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    return dt.strftime("%B %-d %Y")
+
+
+def _movie_certification(details):
+    results = details.get("release_dates", {}).get("results", [])
+    us = next((r for r in results if r["iso_3166_1"] == "US"), None)
+    if not us:
+        return ""
+    certs = [rd["certification"]
+             for rd in us["release_dates"] if rd.get("certification")]
+    return certs[0].lower() if certs else ""
+
+
+def _tv_certification(details):
+    results = details.get("content_ratings", {}).get("results", [])
+    us = next((r for r in results if r["iso_3166_1"] == "US"), None)
+    return us["rating"].lower() if us and us.get("rating") else ""
 
 
 def modifier(movie_details, plot):

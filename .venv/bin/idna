@@ -1,0 +1,6 @@
+#!/Users/dirkerdmann/Documents/GitHub/poster-v2.worktrees/hwo-would-i-use-this-project-to-create/.venv/bin/python3.11
+import sys
+from idna.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
